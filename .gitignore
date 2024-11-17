@@ -1,0 +1,60 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.iml
+
+# Flask specific
+instance/
+.pytest_cache/
+coverage/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Database files
+*.sqlite3
+*.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Log files
+*.log
+*.out
+
+# Flask secret keys and configuration files (optional, but recommended)
+config.py
+
+# Pipenv and Poetry lock files (if using pipenv or poetry)
+Pipfile.lock
+poetry.lock
+
+# Docker files (if using Docker)
+docker-compose.override.yml
+Dockerfile.*
+
+# PyCharm specific files (optional)
+.idea/
+
+# Other IDEs like Sublime Text or Atom
+*.sublime-project
+*.sublime-workspace
