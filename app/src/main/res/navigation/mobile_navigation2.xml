@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_Schedule">
+
+    <fragment
+        android:id="@+id/nav_Schedule"
+        android:name="com.example.cashlessCampus.ui.home1"
+        android:label="Add Items"
+        tools:layout="@layout/fragment_home1" />
+
+    <fragment
+        android:id="@+id/nav_Notice"
+        android:name="com.example.cashlessCampus.ui.editItems"
+        android:label="Edit Items"
+        tools:layout="@layout/fragment_edit_items" />
+
+    <fragment
+        android:id="@+id/nav_Images"
+        android:name="com.example.cashlessCampus.ui.updateFunds"
+        android:label="Update Funds"
+        tools:layout="@layout/fragment_update_funds" />
+
+    <fragment
+        android:id="@+id/nav_StudDetail"
+        android:name="com.example.cashlessCampus.ui.manageData"
+        android:label="Student Details"
+        tools:layout="@layout/fragment_manage_data" />
+
+    <fragment
+        android:id="@+id/nav_History1"
+        android:name="com.example.cashlessCampus.ui.TransactionHistoryAdmin"
+        android:label="Transaction History"
+        tools:layout="@layout/fragment_transaction_history_admin" />
+
+    <fragment
+        android:id="@+id/nav_Add_Events"
+        android:name="com.example.cashlessCampus.ui.AddEvents"
+        android:label="Add Events"
+        tools:layout="@layout/fragment_add_events" />
+
+    <fragment
+        android:id="@+id/nav_Edit_Events"
+        android:name="com.example.cashlessCampus.ui.EditEvents"
+        android:label="Edit Events"
+        tools:layout="@layout/fragment_edit_events" />
+
+    <fragment
+        android:id="@+id/nav_Make_Noti"
+        android:name="com.example.cashlessCampus.ExamNotification"
+        android:label="Make Exam Notification"
+        tools:layout="@layout/fragment_exam_notification" />
+
+    <fragment
+        android:id="@+id/nav_Payment_count"
+        android:name="com.example.cashlessCampus.ui.PaymentCount"
+        android:label="Payment Count"
+        tools:layout="@layout/fragment_payment_count" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.cashlessCampus.ui.slideshow.SlideshowFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>

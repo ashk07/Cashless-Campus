@@ -1,0 +1,34 @@
+# Gradle files
+.gradle/
+build/
+# Local configuration
+local.properties
+# Android Studio
+.idea/
+# User-specific files
+*.iml
+*.apk
+*.ap_ 
+# OS generated files
+.DS_Store
+Thumbs.db
+# Log files
+*.log
+# Gradle wrapper
+gradle-wrapper.jar
+# JetBrains IDEs (IntelliJ IDEA)
+*.iws
+*.idea/
+# Android Studio specific folders
+.idea/
+# .gradle folder (Gradle wrapper caches)
+.gradle/
+# Build folders
+/build/
+
+# Exclude Android test files
+# .test/ and .test-*
+test-*/ 
+test/
+# Exclude caches
+.caches/

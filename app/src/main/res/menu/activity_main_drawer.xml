@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Culuture"
+            android:icon="@drawable/canteen"
+            android:title="Canteen" />
+        <item
+            android:id="@+id/nav_NSS"
+            android:icon="@drawable/library"
+            android:title="Library" />
+        <item
+            android:id="@+id/nav_Sports"
+            android:icon="@drawable/stationary"
+            android:title="Stationary" />
+        <item
+            android:id="@+id/nav_Events"
+            android:icon="@drawable/events"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_viewRecord"
+            android:icon="@drawable/balance"
+            android:title="Check Balance" />
+        <item
+            android:id="@+id/nav_History"
+            android:icon="@drawable/history"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_Contact"
+            android:icon="@drawable/contactus"
+            android:title="Send query" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/logout_icon"
+            android:title="Logout" />
+    </group>
+</menu>

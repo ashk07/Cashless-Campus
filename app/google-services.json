@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "90494458786",
+    "project_id": "cashlesscampus-66acd",
+    "storage_bucket": "cashlesscampus-66acd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90494458786:android:a3a7ee7b48516d0aaa30fb",
+        "android_client_info": {
+          "package_name": "com.example.cashlessCampus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa-inxGqYdwLfvqMJiE1ZIpvvzWN5N1xs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

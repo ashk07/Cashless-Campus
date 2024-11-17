@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/recCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/my_apps_card_margin_horizontal"
+    android:layout_marginTop="@dimen/main_card_margin_vertical"
+    android:layout_marginEnd="@dimen/my_apps_card_margin_horizontal"
+    android:layout_marginBottom="@dimen/main_card_margin_vertical"
+    android:background="#ffffffff"
+    card_view:cardCornerRadius="13dp"
+    android:foreground="?selectableItemBackground"
+    app:cardCornerRadius="@dimen/card_recycler_corner_radius"
+    app:cardElevation="@dimen/card_recycler_elevation">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/image_app"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:scaleType="centerCrop"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/preview" />
+
+        <LinearLayout
+            android:id="@+id/lin"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@+id/image_app"
+            android:layout_toStartOf="@+id/price"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentEnd="false"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentBottom="false">
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:gravity="center_vertical"
+                android:fontFamily="sans-serif-medium"
+                android:text="textview"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:text="Rs.3500"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

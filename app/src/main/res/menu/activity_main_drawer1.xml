@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Schedule"
+            android:icon="@drawable/additem"
+            android:title="Add Items" />
+        <item
+            android:id="@+id/nav_Notice"
+            android:icon="@drawable/edititem"
+            android:title="Edit Items" />
+        <item
+            android:id="@+id/nav_Images"
+            android:icon="@drawable/price"
+            android:title="Update Funds" />
+        <item
+            android:id="@+id/nav_StudDetail"
+            android:icon="@drawable/username"
+            android:title="Student Details" />
+        <item
+            android:id="@+id/nav_History1"
+            android:icon="@drawable/history"
+            android:title="Transaction History" />
+        <item
+            android:id="@+id/nav_Add_Events"
+            android:icon="@drawable/events"
+            android:title="Add Events" />
+        <item
+            android:id="@+id/nav_Edit_Events"
+            android:icon="@drawable/editevent"
+            android:title="Edit Events" />
+        <item
+            android:id="@+id/nav_Make_Noti"
+            android:icon="@drawable/notification"
+            android:title="Make Exam Notification" />
+        <item
+            android:id="@+id/nav_Payment_count"
+            android:icon="@drawable/price"
+            android:title="Payment Count" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/logout_icon"
+            android:title="Logout" />
+    </group>
+</menu>

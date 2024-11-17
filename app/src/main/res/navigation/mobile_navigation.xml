@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_Culuture">
+
+    <fragment
+        android:id="@+id/nav_Culuture"
+        android:name="com.example.cashlessCampus.ui.home.HomeFragment"
+        android:label="Canteen"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_NSS"
+        android:name="com.example.cashlessCampus.ui.gallery.GalleryFragment"
+        android:label="Library"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_Sports"
+        android:name="com.example.cashlessCampus.ui.Stationary.Stationary"
+        android:label="Stationary"
+        tools:layout="@layout/fragment_stationary" />
+
+    <fragment
+        android:id="@+id/nav_Events"
+        android:name="com.example.cashlessCampus.ui.Events"
+        android:label="Events"
+        tools:layout="@layout/fragment_events" />
+
+    <fragment
+        android:id="@+id/nav_viewRecord"
+        android:name="com.example.cashlessCampus.ui.checkbalance.checkbalance"
+        android:label="Check Balance"
+        tools:layout="@layout/fragment_check_balance" />
+
+    <fragment
+        android:id="@+id/nav_History"
+        android:name="com.example.cashlessCampus.ui.TransactionHistory"
+        android:label="History"
+        tools:layout="@layout/fragment_transaction_history" />
+
+    <fragment
+        android:id="@+id/nav_Contact"
+        android:name="com.example.cashlessCampus.ui.SendQuery"
+        android:label="Send query"
+        tools:layout="@layout/fragment_send_query" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.cashlessCampus.ui.slideshow.SlideshowFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
